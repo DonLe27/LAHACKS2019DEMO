@@ -362,14 +362,6 @@ public class VisionActivity extends AppCompatActivity {
     }
 
 
-//    private void launchCloudVision(){
-//        String FILENAME = "picture.jpg";
-//        String PATH = "drawable/"+ FILENAME;
-//        File f = new File(PATH);
-//        Uri uri = Uri.fromFile(f);
-//        Log.e(TAG,  uri.toString());
-//        uploadImage(uri);
-//    }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data){
